@@ -24,25 +24,25 @@
 
 
 
-// import './App.css'
-// import Todo from './Todo'
+import './App.css'
+import Todo from './Todo'
 
-// function App() {
+function App() {
 
-//   return (
-//     <>
+  return (
+    <>
       
-//       <h1>Vite + React</h1>
-//       <Todo task="learn React" isDone={true}  ></Todo>
-//       <Todo task="Core Concepts" isDone={false} ></Todo>
-//       <Todo task="Try JSX" isDone={true} ></Todo>
+      <h1>Vite + React</h1>
+      <Todo task="learn React" isDone={true}  ></Todo>
+      <Todo task="Core Concepts" isDone={false} ></Todo>
+      <Todo task="Try JSX" isDone={true} ></Todo>
 
       
-//     </>
-//   )
-// }
+    </>
+  )
+}
 
-// export default App
+export default App
 
 
 // import Actor from './Actor'
@@ -70,26 +70,26 @@
 
 
 
-import './App.css'
-import Singer from './Singer'
+// import './App.css'
+// import Singer from './Singer'
 
-function App() {
+// function App() {
 
-  const singers = [
-    {id:1, name:'Pritom',age:32},
-    {id:2, name:'Jems',age:63},
-    {id:3, name:'Tahsan',age:42},
-    ]
+//   const singers = [
+//     {id:1, name:'Pritom',age:32},
+//     {id:2, name:'Jems',age:63},
+//     {id:3, name:'Tahsan',age:42},
+//     ]
 
-  return (
-    <>
+//   return (
+//     <>
 
-      {
-        singers.map(singer =><Singer singer = {singer}></Singer>)
-      }
+//       {
+//         singers.map(singer =><Singer singer = {singer}></Singer>)
+//       }
       
-    </>
-  )
-}
+//     </>
+//   )
+// }
 
-export default App
+// export default App
